@@ -4,7 +4,7 @@ import annotations.Test;
 
 public class Example {
     @BeforeSuite
-    public void prepare() {
+    public void prepareMethod() {
         System.out.println("Annotated method called @BeforeSuite");
     }
 
@@ -24,7 +24,7 @@ public class Example {
     }
 
     @AfterSuite
-    public void end() {
+    public void lastMethod() {
         System.out.println("Annotated method called @AfterSuite");
     }
 }
