@@ -13,14 +13,14 @@ public class Example {
         System.out.println("Annotated method called @Test with priority 1");
     }
 
-    @Test(val = 3)
+    @Test(val = 2)
     public void test2() {
-        System.out.println("Annotated method called @Test with priority 3");
+        System.out.println("Annotated method called @Test with priority 2");
     }
 
-    @Test(val = 2)
+    @Test(val = 3)
     public void test3() {
-        System.out.println("Annotated method called @Test with priority 2");
+        System.out.println("Annotated method called @Test with priority 3");
     }
 
     @AfterSuite
